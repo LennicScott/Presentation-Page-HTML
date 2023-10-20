@@ -240,6 +240,7 @@
 }
 .assignment3-hero {
   width: 100%;
+  height: 1620px;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
   margin-top: var(--dl-space-space-fiveunits);
@@ -276,34 +277,8 @@
   border-width: 0px;
   border-radius: 34px;
   padding-bottom: var(--dl-space-space-doubleunit);
+  text-decoration: none;
   background-color: var(--dl-color-primary-100);
-}
-.assignment3-container2 {
-  top: 487px;
-  right: 31px;
-  width: 611px;
-  height: 420px;
-  display: flex;
-  position: absolute;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
-.assignment3-text024 {
-  left: 0px;
-  color: var(--dl-color-gray-500);
-  width: 100%;
-  bottom: 17px;
-  position: absolute;
-}
-.assignment3-text025 {
-  font-size: 12px;
-  font-style: italic;
-}
-.assignment3-image2 {
-  width: 100%;
-  height: 336px;
-  object-fit: cover;
 }
 .assignment3-hero1 {
   width: 100%;
@@ -330,9 +305,18 @@
   font-size: 50px;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.assignment3-text027 {
+.assignment3-text024 {
   color: var(--dl-color-gray-500);
   margin-bottom: var(--dl-space-space-tripleunit);
+}
+.assignment3-text026 {
+  color: var(--dl-color-gray-500);
+}
+.assignment3-text027 {
+  color: var(--dl-color-gray-500);
+}
+.assignment3-text028 {
+  font-weight: 700;
 }
 .assignment3-text029 {
   color: var(--dl-color-gray-500);
@@ -340,20 +324,17 @@
 .assignment3-text030 {
   color: var(--dl-color-gray-500);
 }
-.assignment3-text031 {
-  font-weight: 700;
-}
 .assignment3-text032 {
   color: var(--dl-color-gray-500);
 }
-.assignment3-text033 {
+.assignment3-text034 {
   color: var(--dl-color-gray-500);
 }
-.assignment3-text035 {
+.assignment3-text036 {
   color: var(--dl-color-gray-500);
 }
 .assignment3-text037 {
-  color: var(--dl-color-gray-500);
+  font-weight: 700;
 }
 .assignment3-text039 {
   color: var(--dl-color-gray-500);
@@ -361,42 +342,48 @@
 .assignment3-text040 {
   font-weight: 700;
 }
+.assignment3-text041 {
+  text-decoration: underline;
+}
 .assignment3-text042 {
-  color: var(--dl-color-gray-500);
+  text-decoration: underline;
 }
 .assignment3-text043 {
-  font-weight: 700;
+  text-decoration: underline;
 }
 .assignment3-text044 {
   text-decoration: underline;
 }
 .assignment3-text045 {
-  text-decoration: underline;
-}
-.assignment3-text046 {
+  font-weight: 700;
   text-decoration: underline;
 }
 .assignment3-text047 {
+  font-weight: 700;
   text-decoration: underline;
 }
 .assignment3-text048 {
-  font-weight: 700;
-  text-decoration: underline;
+  color: var(--dl-color-gray-500);
+}
+.assignment3-text049 {
+  color: var(--dl-color-gray-500);
 }
 .assignment3-text050 {
-  font-weight: 700;
-  text-decoration: underline;
-}
-.assignment3-text051 {
-  color: var(--dl-color-gray-500);
-}
-.assignment3-text052 {
-  color: var(--dl-color-gray-500);
-}
-.assignment3-text053 {
   color: var(--dl-color-gray-500);
   font-size: 12px;
   font-style: italic;
+}
+.assignment3-text051 {
+  font-size: 12px;
+  font-style: italic;
+}
+.assignment3-text052 {
+  color: var(--dl-color-gray-500);
+  font-size: 12px;
+  font-style: italic;
+}
+.assignment3-text053 {
+  color: var(--dl-color-gray-500);
 }
 .assignment3-text054 {
   color: var(--dl-color-gray-500);
@@ -405,24 +392,26 @@
   color: var(--dl-color-gray-500);
 }
 .assignment3-text056 {
-  color: var(--dl-color-gray-500);
+  font-weight: 700;
 }
 .assignment3-text057 {
-  font-weight: 700;
+  color: var(--dl-color-gray-500);
 }
 .assignment3-text058 {
   color: var(--dl-color-gray-500);
 }
-.assignment3-text059 {
+.assignment3-text060 {
   color: var(--dl-color-gray-500);
 }
-.assignment3-text061 {
+.assignment3-text062 {
   color: var(--dl-color-gray-500);
 }
-.assignment3-text063 {
-  color: var(--dl-color-gray-500);
+.assignment3-text066 {
+  font-weight: 700;
+  text-decoration: underline;
 }
 .assignment3-text067 {
+  color: var(--dl-color-gray-500);
   text-decoration: underline;
 }
 .assignment3-text068 {
@@ -430,30 +419,45 @@
   text-decoration: underline;
 }
 .assignment3-text069 {
-  color: var(--dl-color-gray-500);
+  font-size: 12px;
+  font-style: italic;
 }
 .assignment3-text070 {
-  font-weight: 700;
+  color: var(--dl-color-gray-500);
+  text-decoration: underline;
 }
 .assignment3-text071 {
   color: var(--dl-color-gray-500);
 }
 .assignment3-text072 {
+  font-weight: 700;
+}
+.assignment3-text073 {
   color: var(--dl-color-gray-500);
 }
 .assignment3-text074 {
   color: var(--dl-color-gray-500);
 }
-.assignment3-text075 {
+.assignment3-text076 {
   color: var(--dl-color-gray-500);
 }
-.assignment3-text080 {
+.assignment3-text077 {
+  color: var(--dl-color-gray-500);
+}
+.assignment3-text081 {
+  font-size: 12px;
+  font-style: italic;
+}
+.assignment3-text082 {
+  font-size: 12px;
+}
+.assignment3-text087 {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   text-decoration: underline;
 }
-.assignment3-container3 {
-  top: 3897px;
+.assignment3-container2 {
+  top: 4040px;
   right: 31px;
   width: 611px;
   height: 420px;
@@ -463,25 +467,25 @@
   flex-direction: row;
   justify-content: center;
 }
-.assignment3-text081 {
+.assignment3-text088 {
   left: 0px;
   color: var(--dl-color-gray-500);
   width: 100%;
   bottom: -14px;
   position: absolute;
 }
-.assignment3-text082 {
+.assignment3-text089 {
   font-size: 12px;
   font-style: italic;
 }
-.assignment3-image3 {
-  width: 800px;
-  height: 439px;
+.assignment3-image2 {
+  width: 778px;
+  height: 426px;
   object-fit: cover;
 }
-.assignment3-container4 {
-  top: 4364px;
-  right: 49px;
+.assignment3-container3 {
+  top: 4507px;
+  right: 31px;
   width: 611px;
   height: 420px;
   display: flex;
@@ -490,18 +494,18 @@
   flex-direction: row;
   justify-content: center;
 }
-.assignment3-text084 {
+.assignment3-text091 {
   top: 319px;
+  left: 0px;
   color: var(--dl-color-gray-500);
-  right: -5px;
   width: 100%;
   position: absolute;
 }
-.assignment3-text085 {
+.assignment3-text092 {
   font-size: 12px;
   font-style: italic;
 }
-.assignment3-image4 {
+.assignment3-image3 {
   width: 699px;
   height: 352px;
   object-fit: cover;
@@ -531,45 +535,100 @@
   font-size: 50px;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.assignment3-text087 {
+.assignment3-text094 {
   color: var(--dl-color-gray-500);
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.assignment3-text089 {
-  color: var(--dl-color-gray-500);
-}
-.assignment3-text091 {
-  color: var(--dl-color-gray-500);
-}
-.assignment3-text093 {
-  color: var(--dl-color-gray-500);
-}
 .assignment3-text095 {
-  color: var(--dl-color-gray-500);
+  font-size: 14px;
+}
+.assignment3-text096 {
+  font-size: 14px;
 }
 .assignment3-text097 {
+  font-size: 14px;
+}
+.assignment3-text098 {
   color: var(--dl-color-gray-500);
+  font-size: 14px;
 }
 .assignment3-text099 {
-  color: var(--dl-color-gray-500);
+  font-size: 14px;
+}
+.assignment3-text100 {
+  font-size: 14px;
 }
 .assignment3-text101 {
+  font-size: 14px;
+}
+.assignment3-text102 {
   color: var(--dl-color-gray-500);
+  font-size: 14px;
 }
 .assignment3-text103 {
-  color: var(--dl-color-gray-500);
+  font-size: 14px;
+}
+.assignment3-text104 {
+  font-size: 14px;
 }
 .assignment3-text105 {
-  left: 0px;
-  color: var(--dl-color-gray-500);
-  width: 100%;
-  bottom: 50px;
-  position: absolute;
-  margin-left: 50px;
+  font-size: 14px;
 }
 .assignment3-text106 {
-  font-size: 12px;
-  font-style: italic;
+  color: var(--dl-color-gray-500);
+  font-size: 14px;
+}
+.assignment3-text107 {
+  font-size: 14px;
+}
+.assignment3-text108 {
+  color: var(--dl-color-gray-500);
+  font-size: 14px;
+}
+.assignment3-text109 {
+  font-size: 14px;
+}
+.assignment3-text110 {
+  font-size: 14px;
+}
+.assignment3-text111 {
+  font-size: 14px;
+}
+.assignment3-text112 {
+  color: var(--dl-color-gray-500);
+  font-size: 14px;
+}
+.assignment3-text113 {
+  font-size: 14px;
+}
+.assignment3-text114 {
+  font-size: 14px;
+}
+.assignment3-text115 {
+  font-size: 14px;
+}
+.assignment3-text116 {
+  color: var(--dl-color-gray-500);
+  font-size: 14px;
+}
+.assignment3-text117 {
+  font-size: 14px;
+}
+.assignment3-text118 {
+  font-size: 14px;
+}
+.assignment3-text119 {
+  font-size: 14px;
+}
+.assignment3-text120 {
+  color: var(--dl-color-gray-500);
+  font-size: 14px;
+}
+.assignment3-text121 {
+  font-size: 14px;
+}
+.assignment3-text123 {
+  color: var(--dl-color-gray-500);
 }
 @media(max-width: 991px) {
   .assignment3-hero {
@@ -683,28 +742,22 @@
   .assignment3-text022 {
     text-align: center;
   }
-  .assignment3-text024 {
-    text-align: center;
-  }
   .assignment3-heading1 {
     text-align: center;
   }
-  .assignment3-text027 {
+  .assignment3-text024 {
     text-align: center;
   }
-  .assignment3-text081 {
+  .assignment3-text088 {
     text-align: center;
   }
-  .assignment3-text084 {
+  .assignment3-text091 {
     text-align: center;
   }
   .assignment3-heading2 {
     text-align: center;
   }
-  .assignment3-text087 {
-    text-align: center;
-  }
-  .assignment3-text105 {
+  .assignment3-text094 {
     text-align: center;
   }
 }

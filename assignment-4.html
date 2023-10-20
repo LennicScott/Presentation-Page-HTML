@@ -155,112 +155,225 @@
           <div class="assignment4-hero-text-container">
             <h1 class="assignment4-heading">Assignment 4</h1>
             <span class="assignment4-text">
-              <span class="assignment4-text01">
-                On this page we will display the weekly Assignments that we made
-                for our DATA1 course. To finalize our course we did a hackathon,
-                here we could apply all out knowledge in one final assignment.
-                Curious about the outcome? Clicking on the blue button will lead
-                you to our hackathon page.
+              <span>
+                Paris is hosting the Paralympics in 2024. One of the events at
+                the Paralympics is an open water swimming event in the Seine
+                (apparently the water is clean or so the French say). Since the
+                City of Amsterdam thinks it is beter than Paris, they want to
+                host an event before the Paralympics, snubbing the Parisians.
+                The idea is to host a 5km. open water swimming event through the
+                canals of Amsterdam. You are asked by the municipality of
+                Amsterdam to advise on the feasibility of the event from the
+                perspective of the safety of the partaking athletes from an
+                environmental perspective. The event is going to be hosted in
+                May.
               </span>
               <br />
               <br />
+              <span>
+                For this exercise you have chosen a route in Amsterdam for the
+                canal swimming event. Preferably you have this route calculated
+                using Python. You can set a start point and an end point and
+                then try to find a route that has a certain distance (min. 5
+                km.)
+              </span>
+              <br class="assignment4-text05" />
+              <br class="assignment4-text06" />
+              <span>
+                The Municipality wants you to find a location for the Event
+                Headquarters. They decided it would be best if this E.H. is as
+                close to the centre of the swimming route. There is a bit of a
+                concern for the after party and the stream of visitors. They
+                want you to quantify the number of visitors that can reach the
+                event and the capacity for festivities after the event.
+              </span>
+              <br class="assignment4-text08" />
+              <br class="assignment4-text09" />
+              <span>
+                • Find the centre of the nodes of the swimming route. See this
+                link.
+              </span>
+              <br class="assignment4-text11" />
+              <span>
+                • Use the centre to find a suitable spot for the Event
+                Headquarters.
+              </span>
+              <br class="assignment4-text13" />
+              <span>
+                • Find the closest bus and tram stops at the start and finish of
+                the swimming route. How many people can be transported within an
+                hour.
+              </span>
+              <br class="assignment4-text15" />
+              <span>
+                • Can you find which bus and tram lines these are, and can you
+                find their routes?
+              </span>
+              <br class="assignment4-text17" />
+              <span>
+                • Calculate the centrality of the start, finish, and centre node
+                of the route. Which centrality calculation makes the most sense.
+                See this link.
+              </span>
+              <br class="assignment4-text19" />
+              <span>
+                • Find all cafes, restaurants near the finish line. Walking time
+                smaller than 10 minutes.
+              </span>
             </span>
+            <a
+              href="https://github.com/LennicScott/assignment4download/raw/main/Week%204.zip"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="assignment4-cta-btn2 button Anchor"
+            >
+              Download .zip files of all jupyter noteboooks with corresponding
+              CVS files
+            </a>
           </div>
         </div>
         <div class="assignment4-hero1">
           <div class="assignment4-hero-text-container1">
             <h1 class="assignment4-heading1">Results</h1>
-            <span class="assignment4-text04">
+            <span class="assignment4-text21">
               <span>
-                We were unable to find data that showed the water quality of the
-                canals in Amsterdam. To address this, we analyzed various
-                datasets.
+                It is time to present the swimming route for the Amsterdam
+                pre-Paralympics city swim. Now that the external conditions and
+                technicalities of water quality, the energy impact of the
+                accompanying boats and the overnight stays are discussed, the
+                route can be calculated. Obviously, the picturesque canals of
+                Amsterdam make the most impact for touristic value and
+                instagrammability. Therefore, the swim will be held in the
+                Herengracht and the Keizersgracht, from the Leliegracht until
+                the Amstel, as presented in Figure 1.
               </span>
-              <br class="assignment4-text06" />
-              <br />
-              <span class="assignment4-text08">Approach:</span>
-              <br class="assignment4-text09" />
-              <br class="assignment4-text10" />
-              <span>
-                We created a map of Amsterdam to overlay the datasets. This
-                enabled us to determine which canals are least polluted.
-              </span>
-              <br class="assignment4-text12" />
-              <br class="assignment4-text13" />
-              <span class="assignment4-text14">Noise Analysis:</span>
-              <br class="assignment4-text15" />
-              <br class="assignment4-text16" />
-              <span>
-                We initially assessed the noise levels, particularly focusing on
-                those exceeding 65 dB. This noise is largely produced by car
-                traffic, providing a clear indication of areas in central
-                Amsterdam with the heaviest traffic. Locations with high traffic
-                are more susceptible to potential leaks of diesel and gasoline
-                into the water.
-              </span>
-              <br class="assignment4-text18" />
-              <br class="assignment4-text19" />
-              <span class="assignment4-text20">NO2 Pollution:</span>
-              <br class="assignment4-text21" />
-              <br class="assignment4-text22" />
-              <span>
-                We also examined Amsterdam's air quality. For CO2, PM12, PM25,
-                and soot, there wasn't a significant variation between different
-                areas or neighborhoods. However, there were notable differences
-                in NO2 levels. Excessive NO2 in the water can cause oxygen
-                deficiency, leading to fish mortality. Inhalation of high
-                amounts of NO2 can result in cardiovascular diseases and
-                respiratory issues for humans. While the levels of these harmful
-                substances are generally high throughout Amsterdam, certain
-                areas exhibited exceptionally high values. These areas are
-                highlighted on our map. Ideally, the desired value should be
-                below 8 micro g/l.
-              </span>
+              <br class="assignment4-text23" />
               <br class="assignment4-text24" />
-              <br class="assignment4-text25" />
-              <span class="assignment4-text26">
-                Canal Boats and Water Quality:
+              <span>
+                *calculations for this are in Jupyter Notebook called WK Jupyter
+                Notebook.ipynb*
               </span>
+              <br class="assignment4-text26" />
               <br class="assignment4-text27" />
-              <br class="assignment4-text28" />
-              <span>
-                Another significant pollutant affecting water quality is the
-                presence of canal boats. Their exhaust fumes negatively impact
-                water health. We categorized the boats based on size: those 16
-                meters or larger and those less than 10 meters. Boats that
-                didn't fit these criteria weren't visible on our map and
-                therefore excluded. Interestingly, a considerable number of
-                boats were unmanned, posing potential disruptions during
-                swimming competitions. For this reason, these boats were also
-                included on our map.
-              </span>
+              <span class="assignment4-text28">Events’ Headquaters</span>
+              <br class="assignment4-text29" />
               <br class="assignment4-text30" />
-              <br class="assignment4-text31" />
-              <span class="assignment4-text32">Results:</span>
+              <span>
+                For the swim event to operate optimally, a headquarters needs to
+                be determined. This location must be a central point. To find
+                the central point, the centrality must be calculated. Centrality
+                is an index weighing certain points to be more ‘central’ or
+                important in the network than others, based on a closer distance
+                to other points in the whole network. This indicator is taken
+                because next to the swimmers, most visitors of the event will be
+                walking, therefore it is important to find the shortest walking
+                path to the central point from every other corner of the
+                swimming route – as done in what is called closeness centrality
+                in literature (Zhang &amp; Luo, 2017). Calculating the closeness
+                centrality of the whole route gives the address of the
+                University of Amsterdam (Spui 21, Amsterdam) as an ideal central
+                location. This place is suitable, being a spacious and
+                semi-public location. Also, the close ties between the
+                university and the municipality support the suitability for
+                being the events’ headquarters.
+              </span>
+              <br class="assignment4-text32" />
               <br class="assignment4-text33" />
-              <br class="assignment4-text34" />
-              <span>
-                In Figure 1, we layered the various datasets. This provides an
-                understanding of which Amsterdam canals are most likely to be
-                polluted and which are least. From this analysis, our 5 km route
-                was derived.
-              </span>
+              <span class="assignment4-text34">Bus and tram stops</span>
+              <br class="assignment4-text35" />
               <br class="assignment4-text36" />
-              <br class="assignment4-text37" />
-              <br class="assignment4-text38" />
-              <br class="assignment4-text39" />
-              <span>Data Source:</span>
-              <br class="assignment4-text41" />
-              <br class="assignment4-text42" />
               <span>
-                All data utilized were sourced from national or municipal
-                databases presented in map form. Consequently, the data isn't
-                stored numerically. The information was composed of lines,
-                areas, and surfaces. We didn't incorporate hyperplanes as our
-                maps are two-dimensional. As these maps represent current
-                conditions, the corresponding website is updated daily.
+                Accessibility is not only determined by walking distance, as
+                stated before, but also by the proximity of public transport to
+                the swimming route. Taking the central point (the event’s
+                headquarters) as the main bus and tram stop, makes the route
+                closely accessible for everyone on foot from there. Buses and
+                trams run through the city center of Amsterdam, close to where
+                the swimming takes place. The closest tram stop to the events
+                head quarters is ‘Koningsplein’ (see Figure 2). Tramline 2
+                (Central Station – Oudena) and 12 (Central Station –
+                Victorieplein) runs through here. This is the only tram stop
+                within 500 meters, further tram stops are visible in Figure 3.
+                The bus does not run here.
               </span>
+              <br class="assignment4-text38" />
+              <span>
+                The amount of people that can be transported by the tram to
+                Koningsplein in one hour is calculated too. The trams 2 and 12
+                stop at Koningsplein 12 times in one hour on a weekday, a Sunday
+                and on holidays, and this is 14 times on a Saturday. The maximum
+                amount of people that travel with both trams on a weekday is
+                2010, on a Sunday or on holidays this is 1852 and on a Saturday
+                this number goes up to 2055 people.
+              </span>
+              <br />
+              <span></span>
+              <br class="assignment4-text42" />
+              <span class="assignment4-text43">Leisure time</span>
               <br class="assignment4-text44" />
+              <br class="assignment4-text45" />
+              <span>
+                While the swimmers are doing their job in the canal, food and
+                drinks are essential for the visitors to keep the excitement up.
+                Good French wine in café or a good French cheese in a
+                restaurant, both indispensable to the Paralympics party.
+                Therefore, the restaurants and café’s are presented in Figure 1.
+                There are 49 cafes and 154 restaurants within a 10-minute walk
+                distance, so about 700 meters away from the end point of the
+                race.
+              </span>
+              <br class="assignment4-text47" />
+              <br class="assignment4-text48" />
+              <br class="assignment4-text49" />
+              <br class="assignment4-text50" />
+            </span>
+          </div>
+          <div class="assignment4-container2">
+            <span class="assignment4-text51">
+              Figure 4: Close by bus stops from the swimming route. Source: Open
+              Streetmap (OSM)
+            </span>
+            <img
+              src="public/picture12-600w.jpg"
+              alt="image"
+              class="assignment4-image2"
+            />
+          </div>
+          <div class="assignment4-container3">
+            <span class="assignment4-text52">
+              <span class="assignment4-text53">
+                Figure 1: Swimming route with beginning and end point,
+                headquarters of the event, close by restaurants and cafes.
+                Source: Open Streetmap (OSM
+              </span>
+              <br />
+            </span>
+            <img
+              src="public/picture10-min-400h.jpg"
+              alt="image"
+              class="assignment4-image3"
+            />
+          </div>
+          <div class="assignment4-container4">
+            <img
+              src="public/picture11-500w.jpg"
+              alt="image"
+              class="assignment4-image4"
+            />
+          </div>
+        </div>
+        <div class="assignment4-hero2">
+          <div class="assignment4-hero-text-container2">
+            <h1 class="assignment4-heading2">Literature</h1>
+            <span class="assignment4-text55">
+              <span>
+                Zhang, J., &amp; Luo, Y. (2017). Degree Centrality, Betweenness
+                Centrality, and Closeness Centrality in Social Network. In
+                Proceedings of the 2017 2nd International Conference on
+                Modelling, Simulation and Applied Mathematics (MSAM2017).
+                Atlantis Press. https://doi.org/10.2991/msam-17.2017.68
+              </span>
+              <br class="assignment4-text57" />
             </span>
           </div>
         </div>
